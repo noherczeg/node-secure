@@ -1,0 +1,35 @@
+{
+  "name": "node-secure",
+  "version": "1.0.0",
+  "description": "An example NodejS Express secure configuration.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Norbert Csaba Herczeg <noherczeg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "helmet": "^3.21.1",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "prettier": "^1.18.2"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}

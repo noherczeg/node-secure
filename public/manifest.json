@@ -1,0 +1,8 @@
+{
+  "name": "Node Secure",
+  "short_name": "NodeSecure",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "An example NodejS Express secure configuration."
+}

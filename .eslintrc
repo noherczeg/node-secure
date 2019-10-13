@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "plugin:prettier/recommended",
+    "plugin:node/recommended",
+    "plugin:security/recommended",
+    "eslint:recommended"
+  ],
+  "plugins": ["node", "prettier", "security"],
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}
